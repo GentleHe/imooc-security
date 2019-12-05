@@ -35,3 +35,9 @@ build/
 mvnw
 mvnw.cmd
 .mvn
+
+
+### JRebel ###
+rebel.xml
+rebel-remote.xml
+
