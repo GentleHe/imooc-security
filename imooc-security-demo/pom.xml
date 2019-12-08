@@ -25,8 +25,14 @@
             <artifactId>imooc-security-app</artifactId>
             <version>${imooc.security.version}</version>
         </dependency>
-    </dependencies>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
 
 
     <build>
@@ -57,7 +63,7 @@
 
                     <!--指定主类-->
                     <mainClass>
-                        com.imooc.security.SecurityApplication
+                        com.imooc.SecurityApplication
                     </mainClass>
                 </configuration>
                 <executions>
