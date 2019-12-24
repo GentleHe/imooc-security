@@ -18,11 +18,9 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 /**
- *
  * Restful API测试
- *
+ * <p>
  * 可以尝试使用迷你版的精简配置
- *
  *
  * @author 何国锋
  * @date 2019-12-08 16:30
@@ -38,8 +36,8 @@ public class ControllerTest {
     private MockMvc mockMvc;
 
     @Before
-    public void setup(){
-       // 伪造一个web环境
+    public void setup() {
+        // 伪造一个web环境
         mockMvc = MockMvcBuilders.webAppContextSetup(wac).build();
         //以下是针对特定的控制器做一个环境
 //        mockMvc = MockMvcBuilders.standaloneSetup(new UserController()).build();
